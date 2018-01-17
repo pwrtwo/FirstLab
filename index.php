@@ -23,12 +23,12 @@ and open the template in the editor.
         $first->add_grade(65);
         $first->add_grade(75);
         $first->add_grade(55);
-        $students['j123'] = $first;
+        $students['c456'] = $first;
         
         $second = new Student();
         $second->surname = "Einstein";
         $second->first_name = "Albert";
-        $second->add_email('home','albert@braniacs.com');
+        $second->add_email('home ','albert@braniacs.com');
         $second->add_email('work1','a_einstein@bcit.ca');
         $second->add_email('work2','albert@physics.mit.edu');
         $second->add_grade(95);
@@ -38,12 +38,12 @@ and open the template in the editor.
         
         $third = new Student();
         $third->surname = "Shin";
-        $thrid->first_name = "Philip";
-        $thrid->add_email('home','pwr_two@hotmail.com');
-        $thrid->add_email('work','pshin6@my.bcit.ca');
-        $thrid->add_grade(90);
-        $thrid->add_grade(80);
-        $thrid->add_grade(70);
+        $third->first_name = "Philip";
+        $third->add_email('home','pwr_two@hotmail.com');
+        $third->add_email('work','pshin6@my.bcit.ca');
+        $third->add_grade(90);
+        $third->add_grade(80);
+        $third->add_grade(70);
         $students['b456'] = $third;
         
         ksort($students); // one of the many sort functions
